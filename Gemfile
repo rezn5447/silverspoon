@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+  gem 'pg'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -43,7 +43,7 @@ group :development, :test do
   gem 'letter_opener'
 
   # Use mysql as the database for Active Record
-  gem 'mysql2', '>= 0.3.18', '< 0.5'
+  # gem 'mysql2', '>= 0.3.18', '< 0.5'
 end
 
 group :development do
